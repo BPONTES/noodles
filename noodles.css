@@ -1,0 +1,32 @@
+.noodle_table
+{
+    background-color: White;
+    border-width: 0px 0px 0 0;
+    border-style: solid;
+    border-color: Black;
+    border-collapse: collapse;
+    font-family: arial,sans-serif;
+    font-size: smaller;
+    margin-left: 8px; 
+}
+
+.noodle_table td
+{
+    border-width: 1px;
+    border-style: solid;
+    border-color: Black;
+    padding: 4px 8px;
+    text-align: center;
+    vertical-align:top;
+}
+
+.noodle_table th 
+{
+    background-color: LightGrey;
+    color: Black;
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: Black;
+    padding: 4px 8px;
+    text-align: center;
+}

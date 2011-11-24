@@ -1,0 +1,44 @@
+<html>
+<head>
+    <link type="text/css" rel="Stylesheet" href="./noodles.css" />
+    <script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js" ></script>
+    <script type="text/javascript" src="http://jquery-templates-plugin.googlecode.com/files/templates-1.1.1.min.js" ></script>
+    <script type="text/javascript" src="translation.js" ></script>
+    <script type="text/javascript">
+        locale = getParameterByName('locale')
+        $(document).ready( function(){translate($('#translate')) });
+    </script>
+
+
+</head>
+<body>
+  <div id='translate'>
+    <a id="langLink" href="noodles.html?locale=jp">{Language.Japanese}</a>
+    <script>
+         if(locale == 'jp')
+        {
+            $('#langLink')[0].href= 'noodles.html?locale=en'
+            $('#langLink')[0].innerHTML = '{Language.English}'
+        }
+    </script>
+    <h1>{Food.noodles}</h1>
+    <table id='noodleTable' class="noodle_table">
+        <tr><th>{Food.noodles}</th><th>{Geographic.region}</th></tr>
+        <tr><td>{Food.ramen}</td><td>{Geographic.China}</td></tr>
+        <tr><td>{Food.Kalguksu}</td><td>{Geographic.Korean}</td></tr>
+        <tr><td>{Food.Soba}</td><td>{Geographic.Japan}</td></tr>
+        <tr><td>{Food.Thukpa}</td><td>{Geographic.Tibetan}</td></tr>
+        <tr><td>{Food.Pizzoccheri}</td><td>{Geographic.Italian}</td></tr>
+    </table>
+    <h1>{General.food_band_names}</h1>
+    <table id='bandTable' class="noodle_table">
+        <tr><th>{General.Name}</th><th>{Geographic.region}</th></tr>
+        <tr><td>{Music.noodles}</td><td>{Geographic.Japan}</td></tr>
+        <tr><td>{Music.smashing_pumpkins}</td><td>{Geographic.USA}</td></tr>
+        <tr><td>{Music.Cake}</td><td>{Geographic.USA}</td></tr>
+        <tr><td>{Music.Cream}</td><td>{Geographic.England}</td></tr>
+        <tr><td>{Music.Korn}</td><td>{Geographic.USA}</td></tr>
+    </table>
+  </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<xliff version="1.2">
+ <file original="noodles.html" source-language="en-US" target-language="en-US" application="Demo" context="Food">
+  <header>
+   <skl>
+    <external-file uid="3BB236513BB24732" href="noodles.html"/>
+   </skl>
+  </header>
+  <body>
+   <group extradata="Food">
+     <trans-unit id="ramen">
+      <source>Ramen</source>
+      <target>Ramen</target>
+     </trans-unit>
+     <trans-unit id="Kalguksu">
+      <source>Kalguksu</source>
+      <target>Kalguksu</target>
+     </trans-unit>
+     <trans-unit id="Soba">
+      <source>Soba</source>
+      <target>Soba</target>
+     </trans-unit>
+     <trans-unit id="Thukpa">
+      <source>Thukpa</source>
+      <target>Thukpa</target>
+     </trans-unit>
+     <trans-unit id="Pizzoccheri">
+      <source>Pizzoccheri</source>
+      <target>Pizzoccheri</target>
+     </trans-unit>
+     <trans-unit id="noodles">
+      <source>Noodles</source>
+      <target>Noodles</target>
+     </trans-unit>
+   </group>
+   <group extradata="Geographic">
+     <trans-unit id="China">
+      <source>China</source>
+      <target>China</target>
+     </trans-unit>
+     <trans-unit id="Korean">
+      <source>Korean</source>
+      <target>Korean</target>
+     </trans-unit>
+     <trans-unit id="Japan">
+      <source>Japan</source>
+      <target>Japan</target>
+     </trans-unit>
+     <trans-unit id="Tibetan">
+      <source>Tibetan</source>
+      <target>Tibetan</target>
+     </trans-unit>
+     <trans-unit id="Italian">
+      <source>Italian</source>
+      <target>Italian</target>
+     </trans-unit>
+     <trans-unit id="England">
+      <source>England</source>
+      <target>England</target>
+     </trans-unit>
+     <trans-unit id="USA">
+      <source>USA</source>
+      <target>USA</target>
+     </trans-unit>
+     <trans-unit id="region">
+      <source>region </source>
+      <target>region</target>
+     </trans-unit>
+   </group>
+   <group extradata="Language">
+     <trans-unit id="Japanese">
+      <source> Japanese</source>
+      <target>日本語</target>
+     </trans-unit>
+     <trans-unit id="English">
+      <source>English</source>
+      <target>English</target>
+     </trans-unit>
+   </group>
+   <group extradata="General">
+     <trans-unit id="Name">
+      <source>Name</source>
+      <target>Name</target>
+     </trans-unit>
+     <trans-unit id="food_band_names">
+      <source>Food Band Names</source>
+      <target>Food Band Names</target>
+     </trans-unit>
+   </group>
+   <group extradata="Music">
+     <trans-unit id="noodles">
+      <source>Noodles</source>
+      <target>Noodles</target>
+     </trans-unit>
+     <trans-unit id="Cake">
+      <source> Cake</source>
+      <target>Cake</target>
+     </trans-unit>
+     <trans-unit id="Cream">
+      <source>Cream</source>
+      <target>Cream</target>
+     </trans-unit>
+     <trans-unit id="Korn">
+      <source>Korn</source>
+      <target>Korn</target>
+     </trans-unit>
+     <trans-unit id="smashing_pumpkins">
+      <source>Smashing Pumpkins</source>
+      <target>Smashing Pumpkins</target>
+     </trans-unit>
+   </group>
+  </body>
+ </file>
+</xliff>
