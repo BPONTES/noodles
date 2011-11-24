@@ -83,8 +83,8 @@
       <target>Name</target>
      </trans-unit>
      <trans-unit id="food_band_names">
-      <source>Food Band Names</source>
-      <target>Food Band Names</target>
+      <source>Bands Named after foods</source>
+      <target>Bands Named after foods</target>
      </trans-unit>
    </group>
    <group extradata="Music">
